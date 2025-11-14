@@ -53,8 +53,8 @@ nav ul li a:hover {
 /* Sections */
 section {
     max-width: 800px;
-    margin: 60px auto;
-    padding: 20px;
+    margin: 10px auto;
+    padding: 10px;
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
@@ -76,28 +76,25 @@ p {
 /* Mission Pages Images */
 .feature-image {
     width: 100%;
-    margin: 10px 0;
     filter: grayscale(30%) brightness(80%);
 }
 
 /* Gallery Grid */
-.gallery {
+.gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(, minmax(250px, 1fr));
     gap: 15px;
     margin-top: 20px;
 }
 
-gallery img, .gallery img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+gallery img, .gallery-grid img {
+    width: 100%;
     border-radius: 6px;
     filter: grayscale(20%);
     transition: 0.3s ease;
 }
 
-.gallery img:hover {
+.gallery-grid img:hover {
     filter: grayscale(0%) brightness(110%);
     transform: scale(1.02);
 }
