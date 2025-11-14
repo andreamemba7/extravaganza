@@ -76,8 +76,7 @@ p {
 /* Mission Pages Images */
 .feature-image {
     width: 100%;
-    margin: 20px 0;
-    border-radius: 10px;
+    margin: 10px 0;
     filter: grayscale(30%) brightness(80%);
 }
 
@@ -90,7 +89,7 @@ p {
 }
 
 gallery img, .gallery img {
-    width: 100%;
+    width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 6px;
